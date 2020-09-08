@@ -15,8 +15,7 @@ int main(void) {
     double grade = atof(gradeValue);
     char *letter ="";
 
-
-    if (grade >= 93.0 ){
+    if (grade >= 93.0 )  {
       letter = "A";
     }
     else if (grade >= 90.0 ) {
@@ -25,7 +24,7 @@ int main(void) {
     else if (grade>= 87.0) {
       letter = "B+";
     }
-    else if (grade >+ 83.0 {
+    else if (grade >+ 83.0) {
       letter = "B";
     }
     else if (grade >= 80) {
