@@ -22,7 +22,7 @@ int main(void) {
     else if (grade>= 87.0) {
       letter = "B+";
     }
-    else if (grade >+ 83.0) {
+    else if (grade >= 83.0) {
       letter = "B";
     }
     else if (grade >= 80) {
